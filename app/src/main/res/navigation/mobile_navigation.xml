@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.cookandroid.hey_bob_ver7.ui.home.HomeFragment"
+        android:label="메인화면"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_write"
+        android:name="com.cookandroid.hey_bob_ver7.ui.write.WriteFragment"
+        android:label="글쓰기"
+        tools:layout="@layout/fragment_write" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.cookandroid.hey_bob_ver7.ui.map.MapFragment"
+        android:label="지도"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.cookandroid.hey_bob_ver7.ui.message.MessageFragment"
+        android:label="채팅"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/navigation_mypage"
+        android:name="com.cookandroid.hey_bob_ver7.ui.mypage.MypageFragment"
+        android:label="마이페이지"
+        tools:layout="@layout/fragment_mypage" />
+</navigation>

@@ -6,5 +6,7 @@ https://1d1cblog.tistory.com/19
 https://recipes4dev.tistory.com/63
 + 글꼴 변경 참조
 https://bongcando.tistory.com/12
-+로딩 화면 구현 참조(Splash Activity)
++ 로딩 화면 구현 참조(Splash Activity)
 https://yongtech.tistory.com/100
+
+## 시연 캡쳐

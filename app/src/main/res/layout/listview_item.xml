@@ -22,7 +22,10 @@
             android:text="New Text"
             android:id="@+id/textView1"
             android:textSize="24sp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="5dp"
             android:textColor="#000000"
+            android:fontFamily="@font/bmhanna_11yrs_ttf"
             android:gravity="center_vertical"
             android:layout_weight="2" />
 
@@ -32,7 +35,10 @@
             android:text="New Text"
             android:id="@+id/textView2"
             android:textSize="16sp"
+            android:drawablePadding="5dp"
+            android:paddingLeft="5dp"
             android:textColor="#666666"
+            android:fontFamily="@font/bmhanna_pro"
             android:layout_weight="1" />
     </LinearLayout>
 
